@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* ****************************************************************** 
+
+	--style.css--
+
+	1. Style setting
+		1-1. FontColor styles
+		1-2. Headline styles
+
+	2. Layout setting
+		2-1. Base styles
+		2-2. Header styles
+		2-3. Navi styles
+		2-4. Main styles
+		2-5. Side styles
+		2-6. Footer styles
+
+****************************************************************** */
+
+/*==================================================================
+	1. Style setting
+===================================================================*/
+
+/* ------------------------------------------------------------------
+	1-1. FontColor styles
+-------------------------------------------------------------------*/
+html { color:#333; }
+a:link, a:visited { color:#333; text-decoration:none; }
+a:hover, a:active {	color:#333; text-decoration:underline; }
+html { background-color:#FFF; }
+body { background-color:#FFF;}
+
+
+/* ------------------------------------------------------------------
+	1-2. Headline styles
+-------------------------------------------------------------------*/
+
+
+
+
+/*==================================================================
+	2. Layout setting
+===================================================================*/
+
+/* ------------------------------------------------------------------
+	2-1. Base styles
+-------------------------------------------------------------------*/
+body {
+	background:#FFF url(../img/common/blank.gif) repeat-x fixed 0 0;
+}
+#contents {
+	clear:both;
+}
+.piecss3 {
+	position:relative;
+	z-index:10;
+}
+
+
+/* ------------------------------------------------------------------
+	2-2. Header styles
+-------------------------------------------------------------------*/
+#header {
+	background:url(../img/common/bg_transparent.png) repeat 0 0;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9999;
+	width:100%;
+}
+#header #headerInner {
+	padding:18px 20px 16px;
+}
+#logo {
+	float:left;
+	width:auto;
+}
+.hNav {
+	float:right;
+	padding-top:15px;
+	width:auto;
+}
+.hNav li {
+	display:inline;
+	margin-left:20px;
+}
+.language {
+	text-align:center;
+}
+.language {
+	text-align:center;
+}
+.language li {
+	display:inline;
+	margin:0 10px;
+}
+
+/* ------------------------------------------------------------------
+	2-3. Navi styles
+-------------------------------------------------------------------*/
+#navi ul {
+	clear:both;
+	position:fixed;
+	bottom:154px;
+}
+#navi ul {
+}
+#navi li {
+	border-bottom:2px solid #fff;
+}
+#navi li.last {
+	border-bottom:none;
+}
+#navi li a {
+	/*background:url(../img/common/bg_menu.png) repeat 0 0;*/
+	border-left:10px solid #b61000;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+	font-size:16px;
+	overflow:hidden;
+	padding:15px 10px 13px;
+	position:relative;
+	text-align:center;
+	text-transform:uppercase;
+	text-decoration:none;
+	width:280px;
+}
+
+#navi li a {
+    background: #6b6b6b;
+    /* Old browsers */
+    background: linear-gradient(to right, #b61000 50%, #6b6b6b 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 0.6s ease;
+}
+#navi li a:hover {
+    background-position:left bottom;
+	background:#b61000\9;
+	/*background:#484848;*/
+}
+
+.secondary-container { width: auto; height: 100%; display: table; table-layout: fixed; position:fixed; right:0; top:0;}
+.sec-sidebar { width: 10px; background: url(../img/common/bg_transparent02.png) repeat 0 0; vertical-align: top; display: table-cell; position: relative; opacity: 1;}
+.sec-nav {width: 300px; height: 100%; margin-right: -295px;}
+.sec-nav-inside { position: relative; width: 100%; height: 100%;}
+
+
+
+/* ------------------------------------------------------------------
+	2-4. Main styles
+-------------------------------------------------------------------*/
+#main {
+
+}
+
+
+/* ------------------------------------------------------------------
+	2-5. Side styles
+-------------------------------------------------------------------*/
+#side {
+
+}
+
+
+/* ------------------------------------------------------------------
+	2-6. Footer styles
+-------------------------------------------------------------------*/
+#footer {
+	background:url(../img/common/bg_transparent.png) repeat 0 0;
+	clear:both;
+	position:fixed;
+	left:0;
+	bottom:0;
+	z-index:9999;
+	width:100%;
+}
+#footerInner {
+	padding:18px 20px 16px;
+}
+.fSection .fNav {
+	float:left;
+	width:auto;
+}
+.fSection .fNav li {
+	display:inline;
+	float:left;
+	margin-right:5px;
+	width:auto;
+}
+.fSection .fNav li a {
+	background:url(../img/common/bg_menu.png) repeat 0 0;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	color:#fff;
+	display:inline-block;
+	font-size:16px;
+	font-weight:500;
+	padding:32px 10px 8px;
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:none;
+	min-height:38px;
+}
+.fSection .fNav li.first a {
+	padding:10px 10px 8px!important;
+	min-height:60px;
+}
+.fSection .fRight {
+	float:right;
+	width:200px;
+	position:relative;
+	z-index:1000;
+}
+.fSection .fRight .social {
+	float:left;
+	padding:19px 0 0;
+	width:auto;
+}
+.fSection .fRight .social li {
+	display:inline;
+	float:left;
+	margin-right:5px;
+	width:auto;
+}
+.fSection .fRight #menu {
+	float:right;
+	width:auto;
+}
+#copyright {
+	background:#333;
+	color:#fff;
+	padding:10px 0;
+	text-align:center;
+}
+
+/* ------------------------------------------------------------------
+	2-7. Page styles
+-------------------------------------------------------------------*/
+
+#pageHome {
+	overflow-y:hidden;
+}
