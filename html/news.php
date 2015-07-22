@@ -31,7 +31,7 @@
 <div id="wrapper">
 <div id="header" class="clearfix">
 <div id="headerInner" class="clearfix">
-<h1 id="logo"><a href="/"><img src="img/common/logo.png" alt="" /></a></h1>
+<h1 id="logo"><a href="index.php"><img src="img/common/logo.png" alt="" /></a></h1>
 <ul class="hNav">
 <li><a href="#"><img src="img/icon/icon_search.png" alt="" class="hover" /></a></li>
 <li><a href="#"><img src="img/icon/icon_question.png" alt="" class="hover" /></a></li>
@@ -49,7 +49,7 @@
 <div id="contents">
 <div id="contentsArea" class="clearfix">
 <div id="main">
-<h2 class="headline1"><span><img src="img/icon/icon_h2.png" alt="" /></span>tin tức</h2>
+<h2 class="headline1"><img src="img/icon/icon_h2.png" alt="" /><span>tin tức</span></h2>
 <div class="section">
 
 <div class="sectionInner clearfix">
@@ -159,9 +159,9 @@ hổ trợ</a></li>
     <div class="sec-nav">
       <div class="sec-nav-inside">
         <ul class="clearfix">
-            <li><a href="/">trang chủ</a></li>
+            <li><a href="index.php">trang chủ</a></li>
             <li><a href="#">giới thiệu</a></li>
-            <li><a href="#">sản phẩm</a></li>
+            <li><a href="products.php">sản phẩm</a></li>
             <li><a href="#">dịch vụ</a></li>
             <li><a href="#">liên kết</a></li>
             <li><a href="#">thông tin thị trường</a></li>
