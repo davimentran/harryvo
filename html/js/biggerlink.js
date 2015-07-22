@@ -175,6 +175,6 @@
 })(jQuery);
 
 $(function(){
-	$('.productList li').biggerlink();
+	$('.productList li').biggerlink({otherstriggermaster:false});
 });
 

@@ -36,37 +36,23 @@ body { background-color:#FFF;}
 -------------------------------------------------------------------*/
 .headline1 {
 	background:url(../img/icon/icon_line.png) repeat-x 0 100%;
-	border-radius:4px 4px 0 0;
-	-webkit-border-radius:4px 4px 0 0;
-	-moz-border-radius:4px 4px 0 0;
-	-o-border-radius:4px 4px 0 0;
-	behavior: url(/PIE.htc);
-	position:relative;
-	z-index:10;
-	color:#666;
-	font-size:16px;
-	font-weight:bold;
-	line-height:1.5;
-	margin-bottom:20px;
-	padding:6px 14px 8px;
+	border-bottom:2px solid #f00;
+	font-size:24px;
+	padding:17px 5px 15px 15px;
 	text-transform:uppercase;
 }
 .headline1 img {
 	margin-right:10px;
 	vertical-align:middle;
 }
-.headline2 {
-	background:#6d6d6d;
-	border-radius:4px 4px 0 0;
-	-webkit-border-radius:4px 4px 0 0;
-	-moz-border-radius:4px 4px 0 0;
-	-o-border-radius:4px 4px 0 0;
-	behavior: url(/PIE.htc);
+.headline1 span {
+	vertical-align:middle;
 	position:relative;
-	z-index:10;
-	color:#fff;
-	font-size:16px;
-	padding:10px 14px;
+	top:2px;
+}
+.headline2 {
+	font-size:24px;
+	padding:15px 5px 12px 15px;
 	text-transform:uppercase;
 }
 
@@ -90,9 +76,7 @@ html {
 }
 #contentsArea {
 	background:url(../img/common/bg_cont.jpg) repeat 0 0;
-	margin:0 auto;
-	padding:120px 0 160px;
-	width:1100px;
+	padding:82px 0 120px;
 }
 
 
@@ -100,7 +84,7 @@ html {
 	2-2. Header styles
 -------------------------------------------------------------------*/
 #header {
-	background:url(../img/common/bg_transparent.png) repeat 0 0;
+	background:url(../img/common/bg_header.png) repeat 0 0;
 	position:fixed;
 	left:0;
 	top:0;
@@ -108,7 +92,7 @@ html {
 	width:100%;
 }
 #header #headerInner {
-	padding:18px 20px 16px;
+	padding:12px 20px 10px;
 }
 #logo {
 	float:left;
@@ -123,16 +107,6 @@ html {
 	display:inline;
 	margin-left:20px;
 }
-.language {
-	text-align:center;
-}
-.language {
-	text-align:center;
-}
-.language li {
-	display:inline;
-	margin:0 10px;
-}
 
 /* ------------------------------------------------------------------
 	2-3. Navi styles
@@ -140,9 +114,7 @@ html {
 #navi ul {
 	clear:both;
 	position:fixed;
-	bottom:154px;
-}
-#navi ul {
+	bottom:119px;
 }
 #navi li {
 	border-bottom:2px solid #fff;
@@ -152,7 +124,7 @@ html {
 }
 #navi li a {
 	/*background:url(../img/common/bg_menu.png) repeat 0 0;*/
-	border-left:10px solid #b61000;
+	border-left:10px solid #fe2222;
 	color:#fff;
 	display:block;
 	font-weight:bold;
@@ -160,18 +132,17 @@ html {
 	overflow:hidden;
 	padding:15px 10px 13px;
 	position:relative;
-	opacity:0.7;
-	filter: alpha(opacity=70);
+	opacity:0.9;
+	filter: alpha(opacity=90);
 	text-align:center;
 	text-transform:uppercase;
 	text-decoration:none;
 	width:280px;
 }
-
 #navi li a {
     background: #6b6b6b;
     /* Old browsers */
-    background: linear-gradient(to right, #b61000 50%, #6b6b6b 50%);
+    background: linear-gradient(to right, #fe2222 50%, #6b6b6b 50%);
     background-size: 200% 100%;
     background-position:right bottom;
     transition:all 0.6s ease;
@@ -181,14 +152,13 @@ html {
 	background:#b61000\9;
 	/*background:#484848;*/
 }
-
 .secondary-container {  height: 100%; display: table; table-layout: fixed; position:fixed; right:0; top:0;
 	-webkit-transform: translateZ(0);/* for chrome */
 }
+*:first-child + html .secondary-container { position:absolute; }
 .sec-sidebar { width: 10px; background: url(../img/common/bg_transparent02.png) repeat 0 0; vertical-align: top; display: table-cell; position: relative; opacity: 1;}
 .sec-nav {width: 300px; height: 100%; margin-right: -295px;}
 .sec-nav-inside { position: relative; width: 100%; height: 100%;}
-
 
 
 /* ------------------------------------------------------------------
@@ -196,18 +166,14 @@ html {
 -------------------------------------------------------------------*/
 #main {
 	background:#fff;
-	box-shadow: 0 0 5px #666;
-	-webkit-box-shadow: 0 0 5px #666;
-	-moz-box-shadow: 0 0 5px #666;
-	-o-box-shadow: 0 0 5px #666;
-	float:right;
-	width:768px;
+	float:left;
+	width:760px;
 	behavior: url(/PIE.htc);
 	position:relative;
 	z-index:10;
 }
 #main .section {
-	padding:0 15px 20px;
+	padding:20px 15px;
 }
 
 
@@ -216,14 +182,6 @@ html {
 -------------------------------------------------------------------*/
 #side {
 	background:#fff;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	-o-border-radius:4px;
-	box-shadow: 0 0 5px #666;
-	-webkit-box-shadow: 0 0 5px #666;
-	-moz-box-shadow: 0 0 5px #666;
-	-o-box-shadow: 0 0 5px #666;
 	float:left;
 	width:286px;
 	behavior: url(/PIE.htc);
@@ -236,26 +194,15 @@ html {
 #side ul li.last {	
 	border-bottom:none;
 }
-#side ul li.last a {
-	border-radius:0 0 3px 3px;
-	-webkit-border-radius:0 0 3px 3px;
-	-moz-border-radius:0 0 3px 3px;
-	-o-border-radius:0 0 3px 3px;
-	behavior: url(/PIE.htc);
-	position:relative;
-	z-index:10;
-}
-#side li a {
-	color:#666; 
-	background:url(../img/icon/icon_arrow01.png) no-repeat 5px 50%;
-	border-left: 5px solid #fff;
+#side li a { 
+	background:#a0a0a0 url(../img/icon/icon_arrow01.png) no-repeat 5px 50%;
 	display:block;
-	padding:12px 0 10px 20px;
+	font-size:16px;
+	padding:20px 0 18px 20px;
 	text-decoration:none;
 }
 #side li a:hover {
-	background-color:#f1f1f1;
-	border-left: 5px solid #c1c1c1;
+	background-color:#cbcbca;
 }
 
 
@@ -263,7 +210,7 @@ html {
 	2-6. Footer styles
 -------------------------------------------------------------------*/
 #footer {
-	background:url(../img/common/bg_transparent.png) repeat 0 0;
+	background:url(../img/common/bg_footer.png) repeat 0 0;
 	clear:both;
 	position:fixed;
 	left:0;
@@ -272,7 +219,7 @@ html {
 	width:100%;
 }
 #footerInner {
-	padding:18px 20px 16px;
+	padding:12px 20px 10px;
 }
 .fSection .fNav {
 	float:left;
@@ -286,7 +233,7 @@ html {
 }
 .fSection .fNav li a {
 	background:url(../img/common/bg_menu.png) repeat 0 0;
-	border:1px solid #ccc;
+	border:1px solid #f1f1f1;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -314,16 +261,23 @@ html {
 	position:relative;
 	z-index:1000;
 }
-.fSection .fRight .social {
+.fSection .fRight .fButton {
 	float:left;
-	padding:19px 0 0;
+	padding:0 0 0;
 	width:auto;
+}
+.fSection .fRight .social {
+	margin-bottom:8px;
 }
 .fSection .fRight .social li {
 	display:inline;
 	float:left;
 	margin-right:5px;
 	width:auto;
+}
+.language li {
+	display:inline;
+	margin-right:5px;
 }
 .fSection .fRight #menu {
 	float:right;
@@ -340,87 +294,86 @@ html {
 	2-7. Page styles
 -------------------------------------------------------------------*/
 
-#main .sectionInner {
-	border-bottom:1px dotted #ccc;
-	margin-bottom:15px;
-	padding-bottom:15px;
+.productList {
+	margin:10px 0 0 10px;
 }
-#main .sectionInner .newsImage {
-	float:left;
-	width:224px;
-}
-#main .sectionInner .newsImage img {
-	border:1px solid #ccc;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	-o-border-radius:4px;
-	behavior: url(/PIE.htc);
+.productList li {
+	background:#fff;
+	border:6px solid #6d6c66;
+	display:inline-block;
 	position:relative;
-	z-index:10;
-	padding:1px;
-}
-#main .sectionInner .newsInfo {
-	float:right;
-	width:500px;
-}
-#main .sectionInner .newsTitle a {
-	color:#2aa9e0;
-	font-weight:bold;
-	font-size:15px;
-}
-#main .productList {
-	margin-right:-38px;
-	text-align:center;
-}
-#main .productList li {
-	display:inline;
-	float:left;
-	margin:0 38px 30px 0;
+	margin:0 5px 8px 0;
 	width:auto;
-	position:relative;
 }
-#main .productList li {
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
+.productList li img {
+	max-width:220px;
+	max-height:147px;
+}
+.productList li .des {
+	background:#dbdcdb;
+	display:block;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	padding:10px 5px 8px;
+	text-transform:uppercase;
+}
+.productList li .des a {
+	text-decoration:none;
+}
+.productList li .cart {
+	position:absolute;
+	right:0;
+	top:0;
+}
+.productList li .cart a {
+	background:#fe2322;
+	border-radius:0 0 0 5px;
+	-webkit-border-radius:0 0 0 5px;
+	-moz-border-radius:0 0 0 5px;
+	-o-border-radius:0 0 0 5px;
 	behavior: url(/PIE.htc);
 	position:relative;
 	z-index:10;
-	overflow:hidden;
-}
-#main .productList li .des {
 	color:#fff;
-	display:block;
-	position:absolute;
-	left:0;
-	bottom:0;
-	text-align:center;
-	text-transform:uppercase;
-	width:100%;
-}
-#main .productList li .des a {
-	background:url(../img/common/bg_transparent.png) repeat 0 0;
-	padding:10px 5% 8px;
-	display:block;
-	color:#fff;
+	display:inline-block;
+	padding:3px 6px;
 	text-decoration:none;
-	width:90%;
 }
-#main .productList li.bl-hover .des a {
+.productList li.bl-hover {
+	border:6px solid #f00;
+}
+.productList li.bl-hover .des,
+.productList li.bl-hover .des a {
 	background:#333;
+	color:#fff;
 }
-
+.img-zoom {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+} 
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);	
+	z-index:11!important;	
+}
 #contents .pager {
-    padding:0 0 10px;
+    padding:20px 0 10px;
     text-align:center;
 }
 #contents .pager ol li {
     display:inline;
 }
+*:first-child + html #contents .pager ol li {
+	position:relative;
+}
 #contents .pager ol a {
-    border:1px solid #d0d3d9;
+	background:#fff;
+    border:1px solid #9a9a9a;
     border-radius:3px;
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
@@ -436,10 +389,10 @@ html {
     z-index:10;
 }
 #contents .pager ol a:hover {
-    border-color:#333;
+    border-color:#f00;
 }
 #contents .pager ol a.active {
-    background:#333;
-    border-color:#333;
+    background:#9a9a9a;
+    border-color:#9a9a9a;
     color:#fff;
 }

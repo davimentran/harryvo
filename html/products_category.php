@@ -19,63 +19,111 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/biggerlink.js"></script>
 <script type="text/javascript" src="js/fixHeight.js"></script>
-<!--[if lte IE 10]><script src="js/PIE.js" type="text/javascript"></script><![endif]-->
+<!--[if lte IE 10]><script src="pie/PIE.js" type="text/javascript"></script>
+<![endif]-->
 
 <!--Slider-image-->
 <script src="js/slider/jquery.easing.min.js" type="text/javascript"></script>
 <script src="js/slider/supersized.3.2.7.js" type="text/javascript"></script>
 <script src="js/slider/supersized.shutter.js" type="text/javascript"></script>
-<script type="text/javascript">
-    
-jQuery(function($){
-
-$.supersized({
-
-	// Functionality
-	slide_interval          :   8000,		// Length between transitions
-	transition              :   3, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-	transition_speed		:	700,		// Speed of transition
-											   
-	// Components							
-	slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-	slides 					:  	[			// Slideshow Images
-	{image : 'img/home/img_main01.jpg', title : ''},
-	{image : 'img/home/img_main02.jpg', title : ''},
-	{image : 'img/home/img_main03.jpg', title : ''},
-	{image : 'img/home/img_main04.jpg', title : ''},
-	{image : 'img/home/img_main05.jpg', title : ''},
-	{image : 'img/home/img_main06.jpg', title : ''},
-	{image : 'img/home/img_main07.jpg', title : ''},
-	{image : 'img/home/img_main08.jpg', title : ''},
-	{image : 'img/home/img_main09.jpg', title : ''},
-	{image : 'img/home/img_main10.jpg', title : ''}
-								]
-	
-});
-});
-</script>
-
 </head>
 
-<body id="pageHome">
+<body id="pageProductsCategory">
 <div id="wrapper">
 <div id="header" class="clearfix">
 <div id="headerInner" class="clearfix">
 <h1 id="logo"><a href="index.php"><img src="img/common/logo.png" alt="" /></a></h1>
 <ul class="hNav">
-<li><a href="#"><img src="img/icon/icon_search.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_question.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_cart.png" alt="" class="hover" /></a></li>
+<li><a href="#"><img src="img/icon/icon_search.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_question.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_cart.png" alt="" /></a></li>
 </ul>
 </div>
 <!-- /#headerInner -->
 </div>
 <!-- /#header -->
 
-<div id="contents" class="clearfix">
-<!--Arrow Navigation-->
-	<a id="prevslide" class="load-item"></a>
-	<a id="nextslide" class="load-item"></a>
+<div id="contents">
+<div id="contentsArea" class="clearfix">
+<div id="side">
+<h2 class="headline2">Danh mục</h2>
+<ul class="lNav">
+<li><a href="#">Sản phẩm thứ nhất</a></li>
+<li><a href="#">Sản phẩm thứ hai</a></li>
+<li><a href="#">Sản phẩm thứ ba</a></li>
+<li><a href="#">Sản phẩm thứ tư</a></li>
+<li><a href="#">Sản phẩm thứ năm</a></li>
+<li><a href="#">Sản phẩm thứ sáu</a></li>
+</ul>
+</div>
+<!-- /#side -->
+
+<div id="main">
+<h2 class="headline1"><img src="img/icon/icon_h2.png" alt="" /><span>Sản Phẩm Mới</span></h2>
+<div class="section">
+<ul class="productList fixHeight clearfix">
+<li class="img-zoom">
+<p><img src="img/common/img_product01.jpg" alt="" /></p>
+<p class="des"><a href="#">Sản phẩm loại một</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại hai</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại ba</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại bốn</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại năm</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại sáu</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại khác</a></p>
+<p class="cart"><a href="#">Đặt hàng</a></p>
+</li>
+</ul>
+
+<div class="pager">
+	<ol>
+	  <li><a href="#">&lt; Đầu</a></li>
+	  <li><a href="#">1</a></li>
+	  <li><a href="#">2</a></li>
+	  <li><a href="#" class="active">3</a></li>
+	  <li><a href="#">4</a></li>
+	  <li><a href="#">5</a></li>
+	  <li><a href="#">Cuối &gt;</a></li>
+	</ol>
+</div>
+
+</div>
+<!-- /.section -->
+</div>
+<!-- /#main -->
+</div>
+<!-- /#contentsArea -->
+
 </div>
 <!-- /#contents -->
 

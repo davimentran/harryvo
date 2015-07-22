@@ -18,6 +18,7 @@
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/biggerlink.js"></script>
+<script type="text/javascript" src="js/fixHeight.js"></script>
 <!--[if lte IE 10]><script src="pie/PIE.js" type="text/javascript"></script>
 <![endif]-->
 
@@ -31,15 +32,11 @@
 <div id="wrapper">
 <div id="header" class="clearfix">
 <div id="headerInner" class="clearfix">
-<h1 id="logo"><a href="/"><img src="img/common/logo.png" alt="" /></a></h1>
+<h1 id="logo"><a href="index.php"><img src="img/common/logo.png" alt="" /></a></h1>
 <ul class="hNav">
-<li><a href="#"><img src="img/icon/icon_search.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_question.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_cart.png" alt="" class="hover" /></a></li>
-</ul>
-<ul class="language">
-<li><a href="#"><img src="img/icon/icon_vi.png" alt="Viet nam" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_en.png" alt="English" class="hover" /></a></li>
+<li><a href="#"><img src="img/icon/icon_search.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_question.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_cart.png" alt="" /></a></li>
 </ul>
 </div>
 <!-- /#headerInner -->
@@ -48,43 +45,43 @@
 
 <div id="contents">
 <div id="contentsArea" class="clearfix">
-<div id="main">
-<h2 class="headline1"><span><img src="img/icon/icon_h2.png" alt="" /></span>sản phẩm mới</h2>
 <div class="section">
-<div class="sectionInner clearfix">
-<ul class="productList clearfix">
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
-<p class="des"><a href="#">Sản phẩm loại một</a></p>
+<ul class="productList fixHeight clearfix">
+<li class="img-zoom">
+<p><img src="img/common/img_product01.jpg" alt="" /></p>
+<p class="des"><a href="products_category.php">Sản phẩm loại một</a></p>
 </li>
 
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
-<p class="des"><a href="#">Sản phẩm loại hai</a></p>
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại hai</a></p>
 </li>
 
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
-<p class="des"><a href="#">Sản phẩm loại ba</a></p>
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại ba</a></p>
 </li>
 
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
-<p class="des"><a href="#">Sản phẩm loại bốn</a></p>
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại bốn</a></p>
 </li>
 
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
 <p class="des"><a href="#">Sản phẩm loại năm</a></p>
 </li>
 
-<li>
-<p><img src="img/common/img_sample.jpg" alt="" class="hover" /></p>
-<p class="des"><a href="#">Sản phẩm loại sáu</a></p>
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại sáu</a></p>
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại khác</a></p>
 </li>
 </ul>
-</div>
-<!-- /.sectionInner -->
 
 <div class="pager">
 	<ol>
@@ -100,21 +97,7 @@
 
 </div>
 <!-- /.section -->
-</div>
-<!-- /#main -->
 
-<div id="side">
-<h2 class="headline2">sản phẩm mới</h2>
-<ul class="lNav">
-<li><a href="#">Sản phẩm loại một</a></li>
-<li><a href="#">Sản phẩm loại hai</a></li>
-<li><a href="#">Sản phẩm loại ba</a></li>
-<li><a href="#">Sản phẩm loại bốn</a></li>
-<li><a href="#">Sản phẩm loại năm</a></li>
-<li><a href="#">Sản phẩm loại sáu</a></li>
-</ul>
-</div>
-<!-- /#side -->
 </div>
 <!-- /#contentsArea -->
 
@@ -124,22 +107,22 @@
 <div id="footer">
 <div id="footerInner">
 <div class="fSection clearfix">
-<ul class="fNav">
-<li><a href="#" class="hover"><img src="img/icon/icon_support.png" alt="" /><br />
-hổ trợ</a></li>
-<li><a href="news.php" class="hover">tin mới</a></li>
-<li><a href="products.php" class="hover">sản phẩm mới</a></li>
-</ul>
-
-<div class="fRight clearfix">
+<div class="fRight">
+<div class="fButton clearfix">
 <ul class="social clearfix">
-<li><a href="#"><img src="img/icon/icon_youtube.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_google.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_facebook.png" alt="" class="hover" /></a></li>
-<li><a href="#"><img src="img/icon/icon_twitter.png" alt="" class="hover" /></a></li>
+<li><a href="#"><img src="img/icon/icon_youtube.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_google.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_facebook.png" alt="" /></a></li>
+<li><a href="#"><img src="img/icon/icon_twitter.png" alt="" /></a></li>
 </ul>
 
-<p id="menu"><a href="#"><img src="img/icon/icon_menu.png" alt="" class="hover" /></a></p>
+<ul class="language">
+<li><a href="#"><img src="img/icon/icon_vi.png" alt="Tiếng Việt" /></a></li>
+<li><a href="#"><img src="img/icon/icon_en.png" alt="English" /></a></li>
+</ul>
+</div>
+
+<p id="menu"><a href="javascript:void(0)"><img src="img/icon/icon_menu.png" alt="" class="hover" /></a></p>
 </div>
 <!-- /.fRight -->
 
@@ -148,12 +131,12 @@ hổ trợ</a></li>
     <div class="sec-nav">
       <div class="sec-nav-inside">
         <ul class="clearfix">
-            <li><a href="/">trang chủ</a></li>
+            <li><a href="index.php">trang chủ</a></li>
             <li><a href="#">giới thiệu</a></li>
-            <li><a href="#">sản phẩm</a></li>
+            <li><a href="products.php">sản phẩm</a></li>
             <li><a href="#">dịch vụ</a></li>
             <li><a href="#">liên kết</a></li>
-            <li><a href="#">thông tin thị trường</a></li>
+            <li><a href="news.php">thông tin thị trường</a></li>
             <li><a href="#">thư viện hình ảnh</a></li>
            </ul>
       </div>
