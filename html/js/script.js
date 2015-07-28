@@ -17,11 +17,14 @@
 $(document).ready(function(){
 	var menu_offset = $('.sec-sidebar').offset();
 	var menuleft = menu_offset.left;
+<<<<<<< HEAD
     
     $(window).resize(function() {
         menu_offset = $('.sec-sidebar').offset();
         menuleft = menu_offset.left;
     });
+=======
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 	
 	//Hover
 		$('.sec-sidebar').mouseover(function(){
@@ -35,7 +38,11 @@ $(document).ready(function(){
 	//Click
 		$('#menu a').click(function(){
 			var x = $('.sec-sidebar').offset();
+<<<<<<< HEAD
 		    var left = x.left;
+=======
+		   var left = x.left;
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 			if(left == menuleft)
 			{
 			  $('.sec-sidebar').find('.sec-nav').stop().animate({marginRight: '0px'}, 500);      
@@ -43,13 +50,25 @@ $(document).ready(function(){
 			else
 			{
 				$('.sec-sidebar').find('.sec-nav').stop().animate({marginRight: '-295px'}, 500);
+<<<<<<< HEAD
+=======
+			}
+			
+			
+			}).mouseout(function(){
+			if(!$('.sec-sidebar').hasClass('sidebar-locked')){
+			  $('.sec-sidebar').find('.sec-nav').stop().animate({marginRight: '-295px'}, 500);
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 			}
 		});
 
 });
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 $(document).ready(function(){			
 	//Add Class	
 	$("#navi li:last-child").addClass("last");

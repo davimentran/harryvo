@@ -45,6 +45,75 @@
 
 <div id="contents">
 <div id="contentsArea" class="clearfix">
+<<<<<<< HEAD
+=======
+<div id="main">
+<h2 class="headline1"><img src="img/icon/icon_h2.png" alt="" /><span>tin tức</span></h2>
+<div class="section">
+
+<div class="sectionInner clearfix">
+<p class="newsImage"><a href="#"><img src="img/common/img_sample.jpg" alt="" /></a></p>
+<div class="newsInfo">
+<p class="newsTitle"><a href="#">News title news title news title.</a></p>
+<p>Content content content content content content content content content content content content.<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content.</p>
+</div>
+</div>
+<!-- /.sectionInner -->
+<div class="sectionInner clearfix">
+<p class="newsImage"><a href="#"><img src="img/common/img_sample.jpg" alt="" /></a></p>
+<div class="newsInfo">
+<p class="newsTitle"><a href="#">News title news title news title.</a></p>
+<p>Content content content content content content content content content content content content.<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content.</p>
+</div>
+</div>
+<!-- /.sectionInner -->
+<div class="sectionInner clearfix">
+<p class="newsImage"><a href="#"><img src="img/common/img_sample.jpg" alt="" /></a></p>
+<div class="newsInfo">
+<p class="newsTitle"><a href="#">News title news title news title.</a></p>
+<p>Content content content content content content content content content content content content.<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content.</p>
+</div>
+</div>
+<!-- /.sectionInner -->
+<div class="sectionInner clearfix">
+<p class="newsImage"><a href="#"><img src="img/common/img_sample.jpg" alt="" /></a></p>
+<div class="newsInfo">
+<p class="newsTitle"><a href="#">News title news title news title.</a></p>
+<p>Content content content content content content content content content content content content.<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content<br />
+Content content content content content content content content content content content content.</p>
+</div>
+</div>
+<!-- /.sectionInner -->
+
+<div class="pager">
+	<ol>
+	  <li><a href="#">&lt; Đầu</a></li>
+	  <li><a href="#">1</a></li>
+	  <li><a href="#">2</a></li>
+	  <li><a href="#" class="active">3</a></li>
+	  <li><a href="#">4</a></li>
+	  <li><a href="#">5</a></li>
+	  <li><a href="#">Cuối &gt;</a></li>
+	</ol>
+</div>
+
+</div>
+<!-- /.section -->
+</div>
+<!-- /#main -->
+
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 <div id="side">
 <h2 class="headline2">tin tức</h2>
 <ul class="lNav">

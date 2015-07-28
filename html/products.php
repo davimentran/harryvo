@@ -45,26 +45,49 @@
 
 <div id="contents">
 <div id="contentsArea" class="clearfix">
+<<<<<<< HEAD
 <div class="section">
 <ul class="productList fixHeight clearfix">
 <li class="img-zoom">
 <p><img src="img/common/img_product01.jpg" alt="" /></p>
 <p class="des"><a href="products_category.php">Sản phẩm loại một</a></p>
+=======
+<div id="main">
+<h2 class="headline1"><img src="img/icon/icon_h2.png" alt="" /><span>sản phẩm mới</span></h2>
+<div class="section">
+<div class="sectionInner clearfix">
+<ul class="productList clearfix">
+<li class="img-zoom">
+<p><img src="img/common/img_product01.jpg" alt="" /></p>
+<p class="des"><a href="#">Sản phẩm loại một</a></p>
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 </li>
 
 <li class="img-zoom">
 <p><img src="img/common/img_sample.jpg" alt="" /></p>
+<<<<<<< HEAD
 <p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại hai</a></p>
+=======
+<p class="des"><a href="#">Sản phẩm loại hai</a></p>
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 </li>
 
 <li class="img-zoom">
 <p><img src="img/common/img_sample.jpg" alt="" /></p>
+<<<<<<< HEAD
 <p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại ba</a></p>
+=======
+<p class="des"><a href="#">Sản phẩm loại ba</a></p>
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 </li>
 
 <li class="img-zoom">
 <p><img src="img/common/img_sample.jpg" alt="" /></p>
+<<<<<<< HEAD
 <p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại bốn</a></p>
+=======
+<p class="des"><a href="#">Sản phẩm loại bốn</a></p>
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
 </li>
 
 <li class="img-zoom">
@@ -74,12 +97,22 @@
 
 <li class="img-zoom">
 <p><img src="img/common/img_sample.jpg" alt="" /></p>
+<<<<<<< HEAD
 <p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại sáu</a></p>
 </li>
 
 <li class="img-zoom">
 <p><img src="img/common/img_sample.jpg" alt="" /></p>
 <p class="des fixHeightChildrenGroups"><a href="#">Sản phẩm loại khác</a></p>
+=======
+<p class="des"><a href="#">Sản phẩm loại sáu</a></p>
+>>>>>>> 6337efaf0d1eb6f8ba9c03c057a6fb4575710757
+</li>
+
+<li class="img-zoom">
+<p><img src="img/common/img_sample.jpg" alt="" /></p>
+<p class="des"><a href="#">Sản phẩm loại<br />
+khác</a></p>
 </li>
 </ul>
 
